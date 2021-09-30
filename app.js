@@ -2,6 +2,7 @@
 // === External dependencies ===
 // =============================
 
+require('dotenv').config();
 // Official Slack packages: Bolt for Javascript & OAuth helpers
 const { App } = require('@slack/bolt')
 
